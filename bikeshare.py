@@ -226,7 +226,7 @@ def DisplayData(df, CurrentLine):
     Display = Display.lower()
 
     #After displaying five lines, ask the user if they would like to see five more.
-    if Display == 'yes' :
+    if Display == 'yes' or Display == 'y' :
 
         print(df.iloc[CurrentLine:CurrentLine+5])
         CurrentLine += 5
