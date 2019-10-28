@@ -78,25 +78,25 @@ def AskForDay():
     # Asks the user for a day of the week
      
     DayOfTheWeek = input('\nWhich day of the week? Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, or Saturday?\n').title()
-    if DayOfTheWeek == 'Sunday':
+    if DayOfTheWeek == 'Sunday' or DayOfTheWeek == 'Sun':
         return 0
 
-    elif DayOfTheWeek == 'Monday':
+    elif DayOfTheWeek == 'Monday' or Day OfTheWeek == 'Mon':
         return 1
 
-    elif DayOfTheWeek == 'Tuesday':
+    elif DayOfTheWeek == 'Tuesday' or DayOfTheWeek == 'Tue':
         return 2
 
-    elif DayOfTheWeek == 'Wednesday':
+    elif DayOfTheWeek == 'Wednesday' or DayOfTheWeek =='Wed':
         return 3
 
-    elif DayOfTheWeek == 'Thursday':
+    elif DayOfTheWeek == 'Thursday' or DayOfTheWeek == 'Thu':
         return 4
 
-    elif DayOfTheWeek == 'Friday':
+    elif DayOfTheWeek == 'Friday' or DayOfTheWeek == 'Fri':
         return 5
 
-    elif DayOfTheWeek == 'Saturday':
+    elif DayOfTheWeek == 'Saturday' or DayOfTheWeek == 'Sat':
         return 6
 
     else:
@@ -348,3 +348,4 @@ def Statistics():
 
 if __name__ == "__main__":
     Statistics()
+#This is The Main function
